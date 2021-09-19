@@ -1,0 +1,12 @@
+.navbar .navbar-nav {
+    margin: 0 auto;
+  }
+  
+.navbar .navbar-collapse {
+text-align: center;
+}
+
+.top-nav {
+    margin: 10px 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PCBuilder.Controllers.AdvertController">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAEABAAAAGAAQAAAAAAAAAAAAEABAAAAA=</HashCode>
+      <FileName>Controllers\AdvertController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCBuilder.Controllers.CompatibilityController">
+    <Position X="13.75" Y="2" Width="2" />
+    <AssociationLine Name="CompatibilityService" Type="PCBuilder.Services.CompatibilityService.CompatibilityService">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.567" Y="1.206" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Controllers\CompatibilityController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="CompatibilityService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PCBuilder.Controllers.ProductsController">
+    <Position X="11" Y="2" Width="2.25" />
+    <AssociationLine Name="ProductService" Type="PCBuilder.Services.ProductService.ProductService">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.162" Y="0.695" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAgAwQIAABIABIAAAAQAAAAABAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Controllers\ProductsController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProductService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PCBuilder.Controllers.SpecificationController">
+    <Position X="8.25" Y="2" Width="2" />
+    <AssociationLine Name="SpecificationService" Type="PCBuilder.Services.SpecificationService.SpecificationService">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.131" Y="0.904" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAgAAgwAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\SpecificationController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="SpecificationService" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PCBuilder.Services.AdvertService.AdvertService">
+    <Position X="5.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>CCAABAAAABAABAAAAAIBAAAAACCAAAAACAAEARAAAIA=</HashCode>
+      <FileName>Services\AdvertService\AdvertService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PCBuilder.Models.ServiceResponse&lt;T&gt;">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\ServiceResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCBuilder.Services.CompatibilityService.CompatibilityService">
+    <Position X="13.75" Y="6.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABBCBBFAEACABAAAAAAAAAAACEAAIAACAAAA=</HashCode>
+      <FileName>Services\CompatibilityService\CompatibilityService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PCBuilder.Services.ProductService.ProductService">
+    <Position X="10.75" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAgAgAIAABJAAIIAABQAAAAABAAAAAAAAAAAAEAIA=</HashCode>
+      <FileName>Services\ProductService\ProductService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PCBuilder.Services.SpecificationService.SpecificationService">
+    <Position X="8.25" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAABAAAAAABAAAAAAAAAggAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\SpecificationService\SpecificationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PCBuilder.Dtos.Advert.GetAdvertDto">
+    <Position X="18.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEACAAAAAQAgAAAAAAAAAAAAAAACAAAAAAAgAAAACEA=</HashCode>
+      <FileName>Dtos\Advert\GetAdvertDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCBuilder.Dtos.Advert.AddAdvertDto">
+    <Position X="20.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Dtos\Advert\AddAdvertDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCBuilder.Dtos.Compatibility.GetCompatibilityProblemsDto">
+    <Position X="18.25" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Dtos\Compatibility\GetCompatibilityProblemsDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCBuilder.Dtos.PartsList.PartListDto">
+    <Position X="21" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAEAAAIEAAAAAAAAAAAAAAAQAEAAAAAAABAAAAE=</HashCode>
+      <FileName>Dtos\PartsList\PartListDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCBuilder.Dtos.Product.GetProductDto">
+    <Position X="17.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAAAAAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dtos\Product\GetProductDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PCBuilder.Dtos.Product.AddProductDto">
+    <Position X="19.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Dtos\Product\AddProductDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

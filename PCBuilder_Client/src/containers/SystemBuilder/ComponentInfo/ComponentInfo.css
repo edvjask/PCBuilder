@@ -1,0 +1,27 @@
+.product img {
+    height: 300px;
+    width: 300px;
+}
+.specs {
+    margin-top: 40px;
+    width: 30%;
+    text-align: left;
+}
+
+.adverts {
+    width: 60%;
+    margin-top: 40px;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    float: left;
+    padding: 20px;
+    border: 2px solid #ccc;
+}  
+
+
