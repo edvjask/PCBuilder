@@ -44,7 +44,7 @@ Normal users can be registered, or you can use:
 > Email: edvinas@gmail.com  
 > Password: edvinas
 
-### Screenshots
+## Screenshots
 
 ![image](https://user-images.githubusercontent.com/44035175/134079022-6d15ad07-2623-44b9-ae59-06d14e9df254.png)
 ![image](https://user-images.githubusercontent.com/44035175/134079046-bf1b14c1-8cb0-4442-9ce3-8dd1ef4a9f05.png)
