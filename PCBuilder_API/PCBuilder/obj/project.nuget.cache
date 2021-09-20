@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pPU5XUIJvHDe9oYyhQhCYhmR1Px9De9bPqyUZWVDT/2PRO6dH9nMriGFUHPfJoqwWPbufPkm0Y2LHUViLxhBFw==",
+  "dgSpecHash": "2WY8yVcV5PV90lKK8RD9c23b6xjAvPH8N5dvV9sNJTt4YodRhTKYl51txDooW13CG0FF37MJIugFXEIEyklRTQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder_API\\PCBuilder\\PCBuilder.csproj",
+  "projectFilePath": "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder\\PCBuilder_API\\PCBuilder\\PCBuilder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bloodwhite\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\Bloodwhite\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

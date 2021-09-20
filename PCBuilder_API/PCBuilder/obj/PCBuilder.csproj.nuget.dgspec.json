@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder_API\\PCBuilder\\PCBuilder.csproj": {}
+    "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder\\PCBuilder_API\\PCBuilder\\PCBuilder.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder_API\\PCBuilder\\PCBuilder.csproj": {
+    "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder\\PCBuilder_API\\PCBuilder\\PCBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder_API\\PCBuilder\\PCBuilder.csproj",
+        "projectUniqueName": "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder\\PCBuilder_API\\PCBuilder\\PCBuilder.csproj",
         "projectName": "PCBuilder",
-        "projectPath": "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder_API\\PCBuilder\\PCBuilder.csproj",
+        "projectPath": "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder\\PCBuilder_API\\PCBuilder\\PCBuilder.csproj",
         "packagesPath": "C:\\Users\\Bloodwhite\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder_API\\PCBuilder\\obj\\",
+        "outputPath": "D:\\Projects\\PartPicker\\PCBuilderProject\\PCBuilder\\PCBuilder_API\\PCBuilder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bloodwhite\\AppData\\Roaming\\NuGet\\NuGet.Config",
