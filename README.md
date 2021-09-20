@@ -1,15 +1,17 @@
 # PCBuilder
-In order to it out yourself, you will need MySQL server running on port 3306, .NET environment, and Node installed on your machine.
+This is an application similar to PCPartPicker, giving the ability for a user to pick his/her own compatible PC parts for a complete computer build, but the parts are provided by other users in their listings rather a retailer.  
+  
+In order to try it out yourself, you will need MySQL server running on port 3306, .NET environment, and Node installed on your machine.
 
 ## 1. Import the database file
 
-In order to have some basic data, **pcbuilder.sql** database file is provided at the root of this repo, which should be imported into your MySQL DBMS (on Windows [XAMPP](https://www.apachefriends.org/download.html) can be used).
-The backend API is configured to connect to MySQL databse running on *localhost* port 3306 with default credentials for testing purposes, however, you can change the parameters to your liking in *appsettings.json* file, located in PCBuilder_API/PCBuilder folder.
+In order to have some basic data, **pcbuilder.sql** database file is provided at the root of this repo, which should be imported into your MySQL DBMS (on Windows [XAMPP](https://www.apachefriends.org/download.html) can be used).  
+The backend API is configured to connect to MySQL databse running on *localhost* port 3306 with default credentials for testing purposes, however, you can change the parameters to your liking in *appsettings.json* file, located in *PCBuilder_API/PCBuilder* folder.
 
 
 ## 2. Starting the backend
 
-The backend API is written using [.NET Core](https://dotnet.microsoft.com/download) libraries, therefore its runtimes need to be installed on your machine to be able to run *dotnet* commands.
+The backend API is written using [.NET Core](https://dotnet.microsoft.com/download) libraries, therefore its runtimes need to be installed on your machine to be able to run *dotnet* commands.  
 
 To start the server, simply navigate to *PCBuilder_API* folder in your terminal and run *dotnet run* command:
 ```
